@@ -1,0 +1,34 @@
+{
+  "roads": [
+    {
+      "name": "Nockalm Road ",
+      "tara": "Austria",
+      "img": "https://webassets2.tomtom.com/636294126297760003IT.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Corsica Coast Road ",
+      "tara": "Franta",
+      "img": "https://webassets2.tomtom.com/636293895410026453GK.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Timmelsjoch ",
+      "tara": "Austria",
+      "img": "https://webassets2.tomtom.com/636294131571650174HH.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Stelvio Pass ",
+      "tara": "Italia",
+      "img": "https://webassets2.tomtom.com/636289837530985992SW.jpg"
+    },
+    {
+      "id": 5,
+      "name": "German Alpine Road ",
+      "tara": "Germania",
+      "img": "https://webassets2.tomtom.com/636298469451675406ER.jpg"
+    }
+  ]
+}

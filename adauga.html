@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <title>Proiect1</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="branding">
+                <h1><i class="fa fa-car "></i> <span class="highlight">Vrum...</span> Şosele Montane</h1>
+                
+               
+            </div>
+            <nav>
+                <ul>
+                   <li><a href="index.html">Acasa</a></li>
+                   <li ><a href="romania.html">Romania</a></li>
+                   
+                   <li ><a href="despre.html">Despre</a></li>
+                   <li class="current"><a href="adauga.html">Adauga tu</a></li>
+                 
+                   
+                </ul>
+            </nav>
+            
+        </div>
+
+        
+    </header>
+
+    <div>
+        <p>Adauga si tu sosele montane pe care le cunosti </p>
+        <input type="text" name="nume"  id="formName" placeholder="NUME">
+        <input type="text" name="tara"  id="formTara" placeholder="TARA">
+        <input type="text" name="url" id="formUrl" placeholder="URL IMAGINE ">
+        <button type="button" id="addButton">Add</button>
+        <button type="button" id="updateButton" disabled>Update</button>
+    </div>
+    <div id='list' class="list"></div>
+    <script src="script.js"></script>
+    
+        
+
+  
+</body>
+</html>
